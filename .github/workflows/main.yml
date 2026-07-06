@@ -17,14 +17,14 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }} # التعديل هنا (نقطة بدل النقطتين)
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Set up Node
-        uses: actions/node@v4
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
