@@ -76,3 +76,19 @@
   padding-bottom: 2px;
   border-bottom: 2px solid tomato;
 }
+.navbar .navbar-cart-icon {
+  position: relative;
+}
+.navbar .navbar-cart-icon .dot {
+  position: absolute;
+  min-height: 10px;
+  min-width: 10px;
+  background-color: tomato;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  top: -5px;
+  right: -5px;
+}
