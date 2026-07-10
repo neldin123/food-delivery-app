@@ -59,3 +59,12 @@
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+@media (max-width: 1050px) {
+  .explore-menu-text {
+    max-width: 100%;
+    font-size: 14px;
+  }
+  .explore-menu-list::-webkit-scrollbar {
+    display: block;
+  }
+}
