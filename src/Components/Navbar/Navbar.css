@@ -14,11 +14,11 @@
   color: #49557e;
   font-size: 18px;
 }
-.navbar .navbar-menu li {
+.navbar .navbar-menu a {
   position: relative;
   cursor: pointer;
 }
-.navbar .navbar-menu li:not(.active)::before {
+.navbar .navbar-menu a:not(.active)::before {
   content: "";
   position: absolute;
   height: 2px;
@@ -38,7 +38,7 @@
   -ms-transform: scale(0);
   -o-transform: scale(0);
 }
-.navbar .navbar-menu li:not(.active):hover::before {
+.navbar .navbar-menu a:not(.active):hover::before {
   transform: scale(1);
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
